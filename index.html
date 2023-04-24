@@ -12,11 +12,11 @@
   </head>
   <body>
     <div class="header">
-      <img class="header__img" src="./eisenhower-matrix.jpg">
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
       <a class="header__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
     <div class="todo">
-      <p class="todo__add-elem" id="topSectionForAddingElementToList">
+      <div class="todo__add-elem" id="topSectionForAddingElementToList">
         <label class="todo__new-task-label" for="new-task">Add Item</label>
         <div class="todo__task-wrapper">
           <input 
@@ -26,7 +26,7 @@
           >
           <button class="todo__btn-add">Add</button>
         </div>
-      </p>
+      </div>
       <h3 class="todo__title">Todo</h3>
       <ul class="todo__incomplete-list" id="incompleteTasks">
         <li class="todo__incomplete-item">
@@ -39,7 +39,7 @@
           >
           <button class="todo__edit">Edit</button>
           <button class="todo__delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg" alt="icon delete">
           </button>
         </li>
         <li class="todo__edit-mode">
@@ -52,7 +52,7 @@
           >
           <button class="todo__edit">Save</button>
           <button class="todo__delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg" alt="icon delete">
           </button>
         </li>
       </ul>
@@ -64,13 +64,13 @@
           <input class="todo__task" type="text" >
           <button class="todo__edit">Edit</button>
           <button class="todo__delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg" alt="icon delete">
           </button>
         </li>
       </ul>
     </div>
+    <script src="app.js"></script>
   </body>
-  <script src="app.js"></script>
 </html>
 
 
