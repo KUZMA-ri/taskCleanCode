@@ -75,6 +75,7 @@ var deleteTask = function () {
 //Mark task completed
 var taskCompleted = function () {
   var listItem = this.parentNode;
+  console.log(listItem);
   completedTasksHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskIncomplete);
 };
